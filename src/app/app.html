@@ -7,14 +7,11 @@
         <a-cursor></a-cursor>
     </a-camera>
 
-    <a-box
-        position = "0 1.5 -3"
-        width = "1"
-        height = "1"
-        depth = "1"
-        [attr.color] = "color"
-        (click)="color = 'white'"
-    >
-
-    </a-box>
+    <a-text
+        value="Danner"
+        position="0 1.5 -3"
+        align="center"
+        width="6"
+        [attr.color]="color">
+    </a-text>
 </a-scene>
